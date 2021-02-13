@@ -22,7 +22,7 @@ Head over to the [releases](https://github.com/Skid000/Project-Heal/releases/tag
 
 # Basic Information On What The Extension Does
 
-This is the basic run-down on how the extension works it uses cookies to communicate various pieces of informations about the current ship and then act on that information.
+This is the basic run-down on how the extension works it uses cookies to communicate various pieces of informations about the current ship and then act on that information. future versions will probably have a better form of communication and make this feature obsolete
 
 
 
