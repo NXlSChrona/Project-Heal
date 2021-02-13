@@ -2,7 +2,7 @@
   "name": "Drednot AutoHealer",
   "description": "Pin and then click on the extention to AutoHeal your ship. use ctr+t to open a new tab the bots follow the commands HEAL,STOP, and LEAVE",
 
-  "version": "1.2",
+  "version": "1.0",
   "permissions": [
       "debugger",
       "\u003Call_urls>",
