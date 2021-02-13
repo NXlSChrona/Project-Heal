@@ -1,0 +1,32 @@
+{
+  "name": "Drednot AutoHealer",
+  "description": "Pin and then click on the extention to AutoHeal your ship. use ctr+t to open a new tab the bots follow the commands HEAL,STOP, an LEAVE",
+
+  "version": "1.2",
+  "permissions": [
+      "debugger",
+      "\u003Call_urls>",
+      "cookies"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "debuggerStart.png",
+    "default_title": "Start AutoHeal"
+  },
+  "manifest_version": 2,
+  "externally_connectable": {
+    "matches": []
+},
+"content_scripts": [ {
+           "js": [            
+                "code.js"
+            ],
+           "matches": [ "*://drednot.io/*","*://test.drednot.io/*"],
+           "run_at": "document_start"
+        }
+    ]
+
+}
