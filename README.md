@@ -17,7 +17,9 @@ We will actively maintain this project for the forseeable future and add new fea
 
 # Installation
 
+Head over to the [releases](https://github.com/Skid000/Project-Heal/releases/tag/v1.0) page and follow the instructions there
 
+# What
 
 
 
